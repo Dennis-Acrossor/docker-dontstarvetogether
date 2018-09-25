@@ -1,12 +1,12 @@
-version: "2"
+version: "3"
 services:
   world:
     build:
       context: https://github.com/dst-academy/docker-dontstarvetogether.git#v0.8.0:build
       args:
-        MODS: 378160973,492173795,407705132
-    container_name: world
-    hostname: world
+        MODS: 378160973,492173795,407705132,463740026,356930882,375859599,458940297,375850593,374550642,501385076
+    container_name: dst_acrossor
+    hostname: acrossor_world
     tty: true
     stdin_open: true
     command: dst-server start --update=all

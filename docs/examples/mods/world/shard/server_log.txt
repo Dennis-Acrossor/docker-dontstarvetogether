@@ -1,0 +1,655 @@
+[00:00:00]: PersistRootStorage is now /var/lib/dsta//./cluster/shard/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 280490
+[00:00:00]: Current time: Tue Sep 25 04:57:29 2018
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: acrossor_world
+[00:00:00]: Release(Kernel) Version: 3.13.0-44-generic
+[00:00:00]: Kernel Build Timestamp: #73-Ubuntu SMP Tue Dec 16 00:22:43 UTC 2014
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 280490 LINUX
+[00:00:00]: Build Date: 4048
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -persistent_storage_root /var/lib/dsta -conf_dir . -cluster cluster -shard shard -backup_log_count 0  
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4129872704)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:6.93
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (4122999616)
+[00:00:00]: OnLoadPermissionList: /var/lib/dsta//./cluster/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /var/lib/dsta//./cluster/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: /var/lib/dsta//./cluster/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /var/lib/dsta//./cluster/cluster_token.txt
+[00:00:00]: Token retrieved from: /var/lib/dsta//./cluster/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: running main.lua
+	
+[00:00:01]: could not load modsettings: ../mods/modsettings.lua	
+[00:00:01]: Warning: You may want to try reinstalling the game if you need access to forcing mods on.	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(10)
+[00:00:01]: Download server mod 378160973
+[00:00:01]: Download server mod 492173795
+[00:00:01]: Download server mod 407705132
+[00:00:01]: Download server mod 463740026
+[00:00:02]: Download server mod 356930882
+[00:00:02]: Download server mod 375859599
+[00:00:02]: Download server mod 458940297
+[00:00:02]: Download server mod 375850593
+[00:00:02]: Download server mod 374550642
+[00:00:03]: Download server mod 501385076
+[00:00:03]: modoverrides.lua enabling workshop-492173795	
+[00:00:03]: modoverrides.lua enabling workshop-378160973	
+[00:00:03]: modoverrides.lua enabling workshop-356930882	
+[00:00:03]: modoverrides.lua enabling workshop-375850593	
+[00:00:03]: modoverrides.lua enabling workshop-407705132	
+[00:00:03]: modoverrides.lua enabling workshop-463740026	
+[00:00:03]: modoverrides.lua enabling workshop-501385076	
+[00:00:03]: modoverrides.lua enabling workshop-374550642	
+[00:00:03]: modoverrides.lua enabling workshop-458940297	
+[00:00:03]: modoverrides.lua enabling workshop-375859599	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-463740026	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375859599	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-407705132	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356930882	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-492173795	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-463740026_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.2.2	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-374550642_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-501385076_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-501385076 (Quick Pick) Version:1.0.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-375859599_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-375859599 (Health Info) Version:2.1.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-407705132_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-407705132 (Welcome Message) Version:0.0.3	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-356930882_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-356930882 (Infinite Tent (and Siesta) Uses ) Version:1.7.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-458940297_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client)) Version:2.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-492173795_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:03]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:03]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:03]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:03]: Loading mod: workshop-492173795 (Moderator Commands) Version:1.13.1	
+[00:00:03]: Mod: workshop-492173795 (Moderator Commands)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-492173795 (Moderator Commands)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-492173795 (Moderator Commands)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modmain.lua	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-407705132 (Welcome Message)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-407705132 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-407705132 (Welcome Message)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-501385076 (Quick Pick)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Loading modmain.lua	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-463740026	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375859599	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-407705132	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356930882	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-492173795	
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering mod namespace "foodvalues - itemtooltips"
+[00:00:04]: Registering mod namespace "workshop-378160973"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: bloom_enabled	false	
+[00:00:04]: loaded saveindex	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-492173795 (Moderator Commands)	Registering prefabs	
+[00:00:04]: Mod: workshop-492173795 (Moderator Commands)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
+[00:00:04]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:04]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:04]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-407705132 (Welcome Message)	Registering prefabs	
+[00:00:04]: Mod: workshop-407705132 (Welcome Message)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-501385076 (Quick Pick)	Registering prefabs	
+[00:00:04]: Mod: workshop-501385076 (Quick Pick)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:04]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Registering prefabs	
+[00:00:04]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (4061240128)
+[00:00:05]: FilesExistAsyncThread started (16501 files)...
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: true
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 8766
+[00:00:05]:   SteamMasterServerPort: 27016
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: false
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: false
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 10
+[00:00:05]:   GameMode: wilderness
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: true
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: social
+[00:00:05]: [Shard] Shard server mode disabled by configuration file
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-407705132	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-458940297	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-492173795	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: Collecting garbage...
+[00:00:06]: lua_gc took 0.03 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~cEventLeaderboardProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: lua_close took 0.04 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]:   taskgrouplist:	default	Together	
+[00:00:06]:   taskgrouplist:	classic	Classic	
+[00:00:06]:   taskgrouplist:	cave_default	Underground	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:06]: running main.lua
+	
+[00:00:06]: unloading prefabs for mod MOD_workshop-492173795	
+[00:00:06]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:06]: unloading prefabs for mod MOD_workshop-458940297	
+[00:00:06]: unloading prefabs for mod MOD_workshop-375859599	
+[00:00:06]: unloading prefabs for mod MOD_workshop-374550642	
+[00:00:06]: unloading prefabs for mod MOD_workshop-407705132	
+[00:00:06]: unloading prefabs for mod MOD_workshop-501385076	
+[00:00:06]: unloading prefabs for mod MOD_workshop-463740026	
+[00:00:06]: unloading prefabs for mod MOD_workshop-356930882	
+[00:00:06]: unloading prefabs for mod MOD_workshop-378160973	
+[00:00:06]: could not load modsettings: ../mods/modsettings.lua	
+[00:00:06]: Warning: You may want to try reinstalling the game if you need access to forcing mods on.	
+[00:00:06]: loaded modindex	
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:06]: modoverrides.lua enabling workshop-492173795	
+[00:00:06]: modoverrides.lua enabling workshop-378160973	
+[00:00:06]: modoverrides.lua enabling workshop-356930882	
+[00:00:06]: modoverrides.lua enabling workshop-375850593	
+[00:00:06]: modoverrides.lua enabling workshop-407705132	
+[00:00:06]: modoverrides.lua enabling workshop-463740026	
+[00:00:06]: modoverrides.lua enabling workshop-501385076	
+[00:00:06]: modoverrides.lua enabling workshop-374550642	
+[00:00:06]: modoverrides.lua enabling workshop-458940297	
+[00:00:06]: modoverrides.lua enabling workshop-375859599	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-463740026	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375859599	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-407705132	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356930882	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-492173795	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-463740026	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-463740026 (Personal Chesters) Version:1.2.2	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.3	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-374550642	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-374550642 (Increased Stack size) Version:1.62	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-501385076	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-501385076 (Quick Pick) Version:1.0.1	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375859599	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-375859599 (Health Info) Version:2.1.5	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-407705132	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-407705132 (Welcome Message) Version:0.0.3	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-356930882	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-356930882 (Infinite Tent (and Siesta) Uses ) Version:1.7.1	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-458940297	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client)) Version:2.5	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-492173795	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:06]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:06]: applying configuration_options from modoverrides.lua to mod workshop-407705132	
+[00:00:06]: Overriding mod workshop-407705132's option title with value Welcome!大家好	
+[00:00:06]: Overriding mod workshop-407705132's option message with value Acrossor饥荒生存服务器，玩的开心，www.acrossor.com	
+[00:00:06]: Loading mod: workshop-492173795 (Moderator Commands) Version:1.13.1	
+[00:00:06]: Mod: workshop-492173795 (Moderator Commands)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-492173795 (Moderator Commands)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-492173795 (Moderator Commands)	Loading modmain.lua	
+[00:00:06]: [Moderator Commands] Error: Invalid permissions.txt	
+[00:00:06]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Loading modmain.lua	
+[00:00:06]: Mod: workshop-375859599 (Health Info)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-375859599 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-375859599 (Health Info)	Loading modmain.lua	
+[00:00:06]: modimport: ../mods/workshop-375859599/black_white_lists.lua	
+[00:00:06]: Mod: workshop-374550642 (Increased Stack size)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-374550642 (Increased Stack size)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-374550642 (Increased Stack size)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-407705132 (Welcome Message)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-407705132 (Welcome Message)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-407705132 (Welcome Message)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-501385076 (Quick Pick)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-501385076 (Quick Pick)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-501385076 (Quick Pick)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-463740026 (Personal Chesters)	Loading modmain.lua	
+[00:00:06]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Loading modmain.lua	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:06]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-463740026	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-378160973	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-374550642	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-501385076	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375859599	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-407705132	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-356930882	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-458940297	
+[00:00:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-492173795	
+[00:00:06]: LOADING LUA SUCCESS
+[00:00:06]: Registering mod namespace "foodvalues - itemtooltips"
+[00:00:06]: Registering mod namespace "workshop-378160973"
+[00:00:06]: PlayerDeaths could not load morgue	
+[00:00:06]: PlayerHistory could not load player_history	
+[00:00:06]: bloom_enabled	false	
+[00:00:06]: loaded saveindex	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: Loading world: session/453888E0A2654189/0000000033	
+[00:00:06]: Save file is at version 4.77	
+[00:00:06]: Klump load on boot started.	
+[00:00:06]: Klump files loaded: 	0	
+[00:00:06]: 	Unload FE	
+[00:00:06]: 	Unload FE done	
+[00:00:07]: Mod: workshop-492173795 (Moderator Commands)	Registering prefabs	
+[00:00:07]: Mod: workshop-492173795 (Moderator Commands)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:07]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	Registering prefabs	
+[00:00:07]: Mod: workshop-458940297 (Food Values - Item Tooltips (Server and Client))	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	Registering prefabs	
+[00:00:07]: Mod: workshop-375859599 (Health Info)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	Registering prefabs	
+[00:00:07]: Mod: workshop-374550642 (Increased Stack size)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-407705132 (Welcome Message)	Registering prefabs	
+[00:00:07]: Mod: workshop-407705132 (Welcome Message)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-501385076 (Quick Pick)	Registering prefabs	
+[00:00:07]: Mod: workshop-501385076 (Quick Pick)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	Registering prefabs	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester_eyebone	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester_eyebone	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering prefab file: prefabs/personal_chester	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	    personal_chester	
+[00:00:07]: Mod: workshop-463740026 (Personal Chesters)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	Registering prefabs	
+[00:00:07]: Mod: workshop-356930882 (Infinite Tent (and Siesta) Uses )	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:07]: 	LOAD BE	
+[00:00:09]: 	LOAD BE: done	
+[00:00:09]: Begin Session: 453888E0A2654189
+[00:00:10]: saving to server_temp/server_save	
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:10]: Loading 12 new character(s)	
+[00:00:10]: Total 12 character(s) loaded	
+[00:00:10]: Loading Nav Grid	
+[00:00:10]: setting 	summerlength	15	
+[00:00:10]: setting 	isnightmaredawn	false	
+[00:00:10]: setting 	elapseddaysinseason	6	
+[00:00:10]: setting 	isfullmoon	false	
+[00:00:10]: setting 	moisture	562.07708740234	
+[00:00:10]: setting 	springlength	20	
+[00:00:10]: setting 	isnightmarewild	false	
+[00:00:10]: setting 	moonphase	half	
+[00:00:10]: setting 	precipitationrate	0.26439329981804	
+[00:00:10]: setting 	iswet	false	
+[00:00:10]: setting 	isnewmoon	false	
+[00:00:10]: setting 	iswinter	false	
+[00:00:10]: setting 	israining	true	
+[00:00:10]: setting 	isnightmarewarn	false	
+[00:00:10]: setting 	precipitation	rain	
+[00:00:10]: setting 	cavephase	dusk	
+[00:00:10]: setting 	moistureceil	871.50909423828	
+[00:00:10]: setting 	isday	false	
+[00:00:10]: setting 	iscaveday	false	
+[00:00:10]: setting 	season	autumn	
+[00:00:10]: setting 	timeinphase	0.86992128160265	
+[00:00:10]: setting 	temperature	22.5	
+[00:00:10]: setting 	isnightmarecalm	false	
+[00:00:10]: setting 	isnight	false	
+[00:00:10]: setting 	isdusk	true	
+[00:00:10]: setting 	iscavedusk	true	
+[00:00:10]: setting 	isautumn	true	
+[00:00:10]: setting 	issnowing	false	
+[00:00:10]: setting 	iswaxingmoon	true	
+[00:00:10]: setting 	pop	1	
+[00:00:10]: setting 	snowlevel	0	
+[00:00:10]: setting 	issnowcovered	false	
+[00:00:10]: setting 	autumnlength	20	
+[00:00:10]: setting 	phase	dusk	
+[00:00:10]: setting 	nightmaretime	0	
+[00:00:10]: setting 	winterlength	15	
+[00:00:10]: setting 	isspring	false	
+[00:00:10]: setting 	nightmarephase	none	
+[00:00:10]: setting 	remainingdaysinseason	14	
+[00:00:10]: setting 	cycles	6	
+[00:00:10]: setting 	iscavenight	false	
+[00:00:10]: setting 	nightmaretimeinphase	0	
+[00:00:10]: setting 	wetness	7.2348003387451	
+[00:00:10]: setting 	time	0.82622048060099	
+[00:00:10]: setting 	issummer	false	
+[00:00:17]: Reconstructing topology	
+[00:00:17]: 	...Sorting points	
+[00:00:17]: 	...Sorting edges	
+[00:00:17]: 	...Connecting nodes	
+[00:00:17]: 	...Validating connections	
+[00:00:17]: 	...Housekeeping	
+[00:00:17]: 	...Done!	
+[00:00:17]: 1 uploads added to server. From server_temp
+[00:00:17]: Telling Client our new session identifier: 453888E0A2654189
+[00:00:17]: ModIndex: Load sequence finished successfully.	
+[00:00:17]: Reset() returning
+[00:00:17]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:00:17]: [Steam] SteamGameServer_Init success
+[00:00:18]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:18]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:18]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:18]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:18]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:18]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:18]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:18]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:18]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:18]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:18]: Sim paused
+[00:00:18]: Gameserver logged on to Steam, assigned SteamID [A:1:247336971:11105]
+[00:08:31]: New incoming connection 198.200.98.54|59585 <8797512947250707323>
+[00:08:31]: Client connected from 198.200.98.54|59585 <8797512947250707323>
+[00:08:31]: ValidateGameSessionToken pgs-usc^KU_AQbLNOWl^DontStarveTogether^BC/kft3VMZVMWzLkNyikSg1sjYZkFFQ1e23fBsrK+m4= for <8797512947250707323>
+[00:08:32]: Client authenticated: (KU_AQbLNOWl) dennisyy
+[00:08:32]: [Steam] Authenticated host '76561198091216872'
+[00:08:33]: There is no active event to validate against.
+[00:08:40]: Resuming user: session/453888E0A2654189/KU_AQbLNOWl_/0000000021
+[00:08:40]: Warning: No eyebone was loaded from save file!	
+[00:08:40]: Spawning player at: [Load] (-6.97, -0.00, -228.51)	
+[00:08:40]: Sim unpaused
+[00:09:52]: [Steam] SendUserDisconnect for '76561198091216872'
+[00:09:52]: Serializing user: session/453888E0A2654189/KU_AQbLNOWl_/0000000034
+[00:09:52]: Sim paused
+[00:30:05]: [200] Account Communication Success (6)
+[00:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_AQbLNOWl) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[03:00:05]: [200] Account Communication Success (6)
+[03:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[04:30:05]: [200] Account Communication Success (6)
+[04:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[05:00:06]: [200] Account Communication Success (6)
+[05:00:06]: Received (KU_AQbLNOWl) from TokenPurpose
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[07:30:05]: [200] Account Communication Success (6)
+[07:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[08:00:05]: [200] Account Communication Success (6)
+[08:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[08:30:05]: [200] Account Communication Success (6)
+[08:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[09:00:06]: [200] Account Communication Success (6)
+[09:00:06]: Received (KU_AQbLNOWl) from TokenPurpose
+[09:30:05]: [200] Account Communication Success (6)
+[09:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[10:00:06]: [200] Account Communication Success (6)
+[10:00:06]: Received (KU_AQbLNOWl) from TokenPurpose
+[10:30:05]: [200] Account Communication Success (6)
+[10:30:05]: Received (KU_AQbLNOWl) from TokenPurpose
+[11:00:05]: [200] Account Communication Success (6)
+[11:00:05]: Received (KU_AQbLNOWl) from TokenPurpose
